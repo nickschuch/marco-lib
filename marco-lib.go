@@ -9,6 +9,7 @@ import (
 type Backend struct {
         Type   string
         Domain string
+	Weight int
         List   []string
 }
 
